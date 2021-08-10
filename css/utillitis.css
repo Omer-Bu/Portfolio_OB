@@ -1,0 +1,134 @@
+/* Variables */
+
+:root {
+  --website-width: 1280px;
+  --main-color: #ffbc00;
+  --light-color: #f4f4f4;
+  --meduim-color: #ccc;
+  --dark-color: #333;
+}
+
+.container {
+  max-width: var(--website-width);
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Buttons */
+
+.btn-light {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 1s;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  background-color: var(--light-color);
+}
+
+.btn-dark {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 1s;
+  border: none;
+  cursor: pointer;
+  color: #f4f4f4;
+  background-color: var(--dark-color);
+}
+
+.btn-light:hover {
+  background-color: var(--main-color);
+}
+
+.btn-dark:hover {
+  background-color: var(--main-color);
+}
+
+.input:hover {
+  background-color: var(--main-color);
+}
+
+/* Backgrounds */
+
+.bg-main {
+  background: var(--main-color);
+  color: #fff;
+}
+
+.bg-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: var(--dark-color);
+}
+
+.bg-meduim {
+  background: var(--meduim-color);
+  color: #fff;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Padding Classes */
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+/* Marggin Classes */
+
+.my-1 {
+  margin: 0.1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: var(--main-color);
+  display: block;
+  margin: 0 auto;
+}
